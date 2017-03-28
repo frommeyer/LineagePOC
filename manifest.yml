@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: DashboardServerTest
+  host: dashboardservertest
+  disk_quota: 1024M
+  services:
+  - API Connect-matrix

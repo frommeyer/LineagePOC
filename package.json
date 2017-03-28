@@ -1,0 +1,21 @@
+{
+	"name": "NodejsStarterApp",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node PingService.js"
+	},
+	"dependencies": {
+		"express": "4.13.x",
+		"cfenv": "1.0.x",
+		"body-parser": "",
+		"basic-auth": "1.0.x",
+		"fs": "",
+		"path": "",
+		"request": ""
+	},
+	"repository": {},
+	"engines": {
+		"node": "4.x"
+	} 
+}

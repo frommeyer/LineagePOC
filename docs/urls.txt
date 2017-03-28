@@ -1,0 +1,2 @@
+to access the Ping Service microservice
+https://lineagepoc.mybluemix.net/v1/Ping/goodbyetoall
