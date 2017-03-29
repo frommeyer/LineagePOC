@@ -59,10 +59,10 @@ app.get(basePath + '/PingYou/:request_id', function(request, response){
 	var greeting = request.query.greeting;
 	var outMsg;
 	
-	console.log(getTimestamp() + " TimFro GET- " + basePath + "/PingYou/" + requestID + " Count:" + pingCnt++);
+	console.log(getTimestamp() + " GET- " + basePath + "/PingYou/" + requestID + " Count:" + pingCnt++);
 	console.log("Inbound: " + getTimestamp() + " GET request id: " + requestID);
 	console.log("GET query Name: " + name + " GET query greeting: " + greeting);
-	outMsg = greeting + ", " + name + " " + requestID;
+	outMsg = greeting + ", XXXX " + name + " " + requestID;
 	pingJson = new PingResult(outMsg);
 
 	response.send(pingJson);    //returns request ID received as JSON
