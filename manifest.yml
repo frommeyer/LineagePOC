@@ -1,10 +1,10 @@
 applications:
 - path: .
-  memory: 256M
+  memory: 128M
   instances: 1
-  domain: eu-gb.mybluemix.net
-  name: DashboardServerTest
-  host: dashboardservertest
+  domain: mybluemix.net
+  name: LineagePOC
+  host: lineagepoc
   disk_quota: 1024M
   services:
   - API Connect-matrix
