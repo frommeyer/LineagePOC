@@ -7,4 +7,4 @@ applications:
   host: lineagepoc
   disk_quota: 1024M
   services:
-  - API Connect-matrix
+  - API Connect-q7
